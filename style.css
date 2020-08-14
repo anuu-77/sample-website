@@ -1,0 +1,351 @@
+*{
+    margin: 0; padding:0; box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+    background-image: url('Images/background\ 11.jpg');
+     background-size: cover;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.header-div{
+    display: flex;
+    flex-direction: row;
+    margin: 0 0% 0 4%;
+    width: 100%;
+}
+.image-2{
+    height: 200px;
+    width: 45%;
+    position: absolute; 
+    margin: 10px 0 0 22%;
+}
+
+
+.header-div ul{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+}
+.header-div ul li{
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+    
+}
+ .carousel-inner img{
+   background-repeat: no-repeat;      
+   height: 300px;
+   width: 90%;
+   padding: 0 20% 0 20%;
+   margin-top: 3%;
+  }
+ 
+ .third-sec{
+  display: flex;
+  justify-content: space-around;
+  width: 100%; height: 100px;
+ }
+ .menu-sec{
+     width: 100%;
+     
+ }
+ .menu-sec ul{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+ }
+ .menu-sec ul li{
+    list-style: none;
+    font-size: 17px;
+    font-weight: 1000px;
+    text-transform: uppercase;
+    margin-top: 3%  ; 
+    font-family: 'Tangerine', serif;
+text-shadow: 4px 4px 4px #aaa;
+}  
+.menu-sec ul li a{
+    text-decoration: none;
+}
+.menu-sec ul li:hover{
+    box-shadow:  0.7px 0.7px 0.7px 0.7px;
+    background-color: lightpink;
+}
+.menu-sec ul li a{
+    color: black;
+}
+.last-sec{
+    display: flex;
+
+}
+
+.leftside{
+    width: 15%;
+    margin-left: 20px;
+}
+.leftside p{
+    margin: 0%;
+    font-size: 15px;
+    font-weight: normal;
+    /* text-decoration: underline;
+    text-underline-position: under; */
+}
+.leftside input{
+   
+    width: 10px; 
+    margin: 0 0 0 8%;
+}
+.leftside  label{
+    padding: 0%;
+    margin: 0%; 
+    font-size: 15px;
+    
+}
+#category{
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: wavy;
+}
+
+.rightside{
+    width: 85%;
+}
+.images-sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.images-sec img{
+    width: 30%;
+    height: 385px;
+}
+.mid-sec p{
+  margin-left: 25px;
+  font-size: 7px;
+}
+.pagination {
+    display: inline-block;
+    margin: 19% 0 0 35%;
+
+  }
+  
+  .pagination a {
+    color: black;
+    padding: 3px 6px;
+    text-decoration: none;
+  }
+  .content-sec{
+      background-image: url("Images/background\ 2.jpg");
+      background-image: cover;
+      margin: 0;
+      margin: 20% 8% 0 8%; 
+  }
+  .contact-sec {
+      display: flex;
+      margin: 0 0 0 35%;  
+
+    }
+    .contact-sec p{
+        margin: 4%;
+        font-size: 15px;
+        font-style: normal;
+  }
+  .fa {
+      margin-left: 5px;
+  }
+  .headersecond{
+      display: flex;
+      float: right;
+      margin-right: 50px;
+
+  }
+ .headersecond li{
+     float:left;
+     list-style-type: none;
+     margin: 10px;
+
+ }
+  .headersecond li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+
+  }
+  footer{
+      text-align: center;
+      font-size: 10px;
+
+  }
+  .footer-sec{
+    background-image: url('Images/background\ 11.jpg');
+    background-image: linear-gradient( #D5C093, #FF3D33)
+  }
+  .shop-items{
+      display: flex;
+  }
+  .shop-item-image{
+      width: 95%;
+      height: 78%;
+      /* box-shadow: 10px black;
+      border: solid black;
+       */
+       box-shadow:  10px 10px 10px 10px lightpink;
+       /* background-color: lightpink; */
+  }
+  .shop-item{
+      text-align: center;
+  }
+  .fa-shopping-bag{
+      color: darkmagenta;
+  }
+.shop-item-button{
+    color: darkmagenta;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 10px;
+text-shadow: 4px 4px 4px #aaa;
+font-weight: bold;
+}
+.shop-item-button:hover{
+    background-color: lightpink;
+    color: black;
+}
+.shop-item-price{
+    margin-top: 5%;
+}
+.product-header{
+    display: flex;
+    flex-direction: row;
+}
+  .mobile-icon{
+    display: none;
+}
+.cart-row{
+    display: flex;
+    flex-direction: row;
+}
+.section-header{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+.cart-column{
+    margin: 5% 0 0 8%;
+    text-align: center;
+    font-family: 'Tangerine', serif;
+    font-size: 35px;
+    text-shadow: 4px 4px 4px #aaa;
+    font-weight: bold;
+     /* text-shadow: 4px 4px 4px #aaa; */
+
+}
+.cart-total{
+    font-family: 'Tangerine', serif;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px #aaa;
+    margin-left: 20%;
+}
+.cart-total-title{
+    margin-right: 5px;
+}
+.btn-purchase{
+margin-left: 55%;
+background-color: rgb(173, 106, 173);
+color: white;
+padding: 10px;
+font-family: 'Tangerine', serif;
+text-shadow: 4px 4px 4px #aaa;
+font-weight: bold;
+}
+  @media only screen and(max-width: 1380px){
+    .whole-sec{
+          width: 100%;
+          padding: 0 2%;
+      }
+  }
+
+    .mobile-icon{
+        display: none;
+    }
+
+@media only screen and (max-width: 785px){
+    .image-2{
+        width: 30%;
+        height: 100px;
+    }
+    .leftside label{
+        font-size: 7px;
+        padding: 0%;
+        margin: 0%;
+    }
+    .menu-sec ul{
+        display: none;
+    }
+    .mobile-icon{
+        display: inline-block;
+        color: black;
+        float: left;
+        width: 100%;
+        margin-left: 5%;
+    }
+   
+    .menu-sec ul li {
+        display: block;
+        padding: 0%;
+        margin: 0%
+        display: flex;
+        flex-direction: columns;
+        margin-left:5%;
+        font-size: 12px;
+        list-style-type: disc;
+}
+
+ .last-sec{
+     margin-top: 10%;
+ }
+ .content-sec{
+     margin: 5% 0 0 0;
+ }
+ .contact-sec{
+     margin-left: 30%;
+ }
+.carousel-inner img{
+    height: 250px;
+    width: 1000%;
+    
+}
+.images-sec{
+    margin-left: 5%;
+   
+}
+.images-sec img{
+    height: 300px;
+    width: 35%;
+}
+.leftside{
+    margin: %;
+}
+.leftside input{
+    margin: 0%;
+}
+.pagination{
+    margin-left: 30%;
+}
+.header-div ul{
+    margin-left: 0%;
+}
+.fa {
+    margin-left: 1px;
+}
+
+}
